@@ -1,5 +1,15 @@
 header {
     box-shadow: 0 7px 10px -9px #4d4d4d;
+
+    button {
+        background-color: $white;
+        padding: 10px;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
 
 .flex-header {
