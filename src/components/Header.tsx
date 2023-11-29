@@ -6,8 +6,12 @@ import { faMoon as regularMoon } from '@fortawesome/free-regular-svg-icons';
 function Header() {
     return (
         <header>
-            <h1>Where in the world?</h1>
-            <div><FontAwesomeIcon icon={regularMoon} /> Dark Mode</div>
+            <div className='container'>
+                <div className='flex-header'>
+                    <h1>Where in the world?</h1>
+                    <div><FontAwesomeIcon icon={regularMoon} /> Dark Mode</div>
+                </div>
+            </div>
         </header>
     )
 }
