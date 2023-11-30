@@ -17,9 +17,27 @@ body {
 }
 
 section {
-    padding: 40px 0;
+    margin: 40px 0;
 }
 
 input:focus {
     outline: none;
+}
+
+.highlight {
+    font-weight: 600;
+}
+
+button {
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    border: none;
+    padding: 10px 25px;
+    background-color: $white;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
