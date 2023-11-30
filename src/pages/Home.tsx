@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import SearchFilter from '../components/SearchFilter';
+import Countries from '../components/Countries';
 
 function Home() {
     return (
@@ -9,7 +10,7 @@ function Home() {
             <main>
                 <div className="container">
                     <SearchFilter />
-                    <div>Home Page</div>
+                    <Countries />
                 </div>
             </main>
         </>

@@ -1,0 +1,24 @@
+.card-container {
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    margin: 40px 20px;
+}
+
+.card-image {
+    position: relative;
+
+    img {
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+    }
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.highlight {
+    font-weight: 600;
+}
