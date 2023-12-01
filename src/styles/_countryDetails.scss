@@ -47,12 +47,6 @@
             margin-bottom: 0;
             margin-right: 60px;
         }
-
-        &:last-child {
-            @media screen and (min-width: 900px) {
-                margin-right: -60px;
-            }
-        }
     }
 
     .content {
