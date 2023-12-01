@@ -11,8 +11,8 @@ function Home() {
             <main>
                 <div className="container">
                     <SearchFilter />
-                    <Countries />
-                    {/* <CountryDetail /> */}
+                    {/* <Countries /> */}
+                    <CountryDetail />
                 </div>
             </main>
         </>
