@@ -4,7 +4,7 @@ import FilterByRegion from './FilterByRegion';
 function SearchFilter() {
     return (
         <section>
-            <div>
+            <div className='search-filter'>
                 <SearchBar />
                 <FilterByRegion />
             </div>
