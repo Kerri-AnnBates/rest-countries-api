@@ -1,6 +1,9 @@
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
+import { useParams } from 'react-router-dom';
 
 function CountryDetail() {
+    const countryId = useParams();
+
     return (
         <>
             <div className='details-header'>
